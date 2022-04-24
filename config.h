@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "LiterationMono Nerd Font:size=10.6:antialias=true:autohint=true";
+static char *font = "LiterationMono Nerd Font:size=11:antialias=true:autohint=true";
 // static char *font = "Hack Nerd Font:size=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
@@ -237,8 +237,8 @@ static MouseShortcut mshortcuts[] = {
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
-	{ TERMMOD,              XK_equal,       zoom,           {.f = +0.2} },
-	{ TERMMOD,              XK_underscore,  zoom,           {.f = -0.2} },
+	{ TERMMOD,              XK_equal,       zoom,           {.f = +2} },
+	{ TERMMOD,              XK_underscore,  zoom,           {.f = -2} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
